@@ -1,6 +1,6 @@
-const moongose = require('mongoose');
+const mongoose = require('mongoose');
 
-const BootcampSchema = new moongose.Schema({
+const BootcampSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, 'Please add a name'],
