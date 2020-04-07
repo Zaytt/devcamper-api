@@ -12,7 +12,7 @@ const router = express.Router();
 router
   .route('/')
   .get(getBootcamps)
-  .post(getBootcamp);
+  .post(createBootcamp);
 
 router
   .route('/:id')
